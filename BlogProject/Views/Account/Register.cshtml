@@ -1,0 +1,75 @@
+﻿@model BlogProject.ViewModels.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Регистрация";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0">Регистрация</h3>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Register" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="UserName" class="control-label"></label>
+                            <input asp-for="UserName" class="form-control" placeholder="Введите имя пользователя" />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Email" class="control-label"></label>
+                            <input asp-for="Email" class="form-control" placeholder="example@mail.com" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3 position-relative">
+                            <label asp-for="Password" class="control-label"></label>
+                            <input asp-for="Password" class="form-control" id="registerPassword" placeholder="Минимум 6 символов" />
+                            <span id="toggleRegisterPassword" style="position: absolute; right: 10px; top: 38px; cursor: pointer; user-select: none;">👁️</span>
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3 position-relative">
+                            <label asp-for="ConfirmPassword" class="control-label"></label>
+                            <input asp-for="ConfirmPassword" class="form-control" id="registerConfirmPassword" placeholder="Повторите пароль" />
+                            <span id="toggleRegisterConfirmPassword" style="position: absolute; right: 10px; top: 38px; cursor: pointer; user-select: none;">👁️</span>
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary w-100">Зарегистрироваться</button>
+                        </div>
+                        <div class="text-center mt-3">
+                            <a asp-action="Login">Уже есть аккаунт? Войдите</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        function togglePasswordVisibility(inputId, toggleId) {
+            const input = document.getElementById(inputId);
+            const toggle = document.getElementById(toggleId);
+            toggle.addEventListener('click', function () {
+                const type = input.getAttribute('type') === 'password' ? 'text' : 'password';
+                input.setAttribute('type', type);
+                this.textContent = type === 'password' ? '👁️' : '👁️‍🗨️';
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            togglePasswordVisibility('registerPassword', 'toggleRegisterPassword');
+            togglePasswordVisibility('registerConfirmPassword', 'toggleRegisterConfirmPassword');
+        });
+    </script>
+}

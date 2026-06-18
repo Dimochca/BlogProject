@@ -1,0 +1,90 @@
+﻿@model IEnumerable<BlogProject.Models.Post>
+@{
+    ViewData["Title"] = "Все статьи";
+    var tags = ViewBag.Tags as IEnumerable<BlogProject.Models.Tag>;
+    var searchText = ViewBag.SearchText as string;
+    var selectedTagId = ViewBag.SelectedTagId as int?;
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Все статьи</h2>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <a asp-action="Create" class="btn btn-primary">✏️ Создать статью</a>
+        }
+    </div>
+
+    <form method="get" asp-action="Index" class="row g-2 mb-4">
+        <div class="col-md-6">
+            <input type="text" name="searchText" class="form-control" placeholder="Поиск по тексту или заголовку" value="@searchText" />
+        </div>
+        <div class="col-md-4">
+            <select name="tagId" class="form-select">
+                <option value="">Все теги</option>
+                @if (tags != null)
+                {
+                    foreach (var tag in tags)
+                    {
+                        <option value="@tag.Id" selected="@(selectedTagId == tag.Id)">@tag.Name</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-outline-secondary w-100">Найти</button>
+        </div>
+    </form>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">Статей пока нет. @(User.Identity.IsAuthenticated ? "Создайте первую!" : "Зарегистрируйтесь, чтобы создать статью.")</div>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var post in Model)
+            {
+                var authorColor = ViewBag.Colors != null && ViewBag.Colors.ContainsKey(post.Id) ? ViewBag.Colors[post.Id] : "#6c757d";
+                var canEdit = false;
+                var canDelete = false;
+                if (ViewBag.Permissions != null && ViewBag.Permissions.ContainsKey(post.Id))
+                {
+                    var perm = ViewBag.Permissions[post.Id];
+                    canEdit = perm.Item1;
+                    canDelete = perm.Item2;
+                }
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 border-0 border-bottom pb-3">
+                        <div class="card-body px-0">
+                            <h5 class="card-title">@post.Title</h5>
+                            <p class="card-text text-muted small">
+                                Автор: <a asp-controller="User" asp-action="Details" asp-route-username="@post.Author.UserName" style="color: @authorColor; font-weight: bold;">@post.Author.UserName</a><br />
+                                Опубликовано: <span class="utc-time" data-utc="@post.CreatedAt.ToString("o")"></span>
+                            </p>
+                            <p class="card-text">@(post.Content.Length > 100 ? post.Content.Substring(0, 100) + "..." : post.Content)</p>
+                            <div class="mb-2">
+                                @foreach (var pt in post.PostTags)
+                                {
+                                    <span class="badge bg-primary me-1">@pt.Tag.Name</span>
+                                }
+                            </div>
+                            <div class="mt-2">
+                                <a asp-action="Details" asp-route-id="@post.Id" class="btn btn-sm btn-outline-primary">Читать</a>
+                                @if (User.Identity.IsAuthenticated && canEdit)
+                                {
+                                    <a asp-action="Edit" asp-route-id="@post.Id" class="btn btn-sm btn-outline-warning">Редактировать</a>
+                                }
+                                @if (User.Identity.IsAuthenticated && canDelete)
+                                {
+                                    <a asp-action="Delete" asp-route-id="@post.Id" class="btn btn-sm btn-outline-danger">Удалить</a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

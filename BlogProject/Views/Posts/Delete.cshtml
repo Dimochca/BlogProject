@@ -1,0 +1,25 @@
+﻿@model BlogProject.Models.Post
+@{
+    ViewData["Title"] = "Удаление статьи";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-danger text-white">
+                    <h3>Удаление статьи</h3>
+                </div>
+                <div class="card-body">
+                    <p class="lead">Вы уверены, что хотите удалить статью <strong>@Model.Title</strong>?</p>
+                    <p>Это действие необратимо. Все комментарии также будут удалены.</p>
+                    <form asp-action="Delete" method="post">
+                        <input type="hidden" asp-for="Id" />
+                        <button type="submit" class="btn btn-danger">Подтвердить удаление</button>
+                        <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-secondary">Отмена</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

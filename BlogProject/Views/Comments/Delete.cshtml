@@ -1,0 +1,28 @@
+﻿@model BlogProject.Models.Comment
+@{
+    ViewData["Title"] = "Удаление комментария";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-danger text-white">
+                    <h3>Удаление комментария</h3>
+                </div>
+                <div class="card-body">
+                    <p class="lead">Вы уверены, что хотите удалить этот комментарий?</p>
+                    <blockquote class="blockquote">
+                        <p>@Model.Content</p>
+                        <footer class="blockquote-footer">@Model.Author.UserName</footer>
+                    </blockquote>
+                    <form asp-action="Delete" method="post">
+                        <input type="hidden" asp-for="Id" />
+                        <button type="submit" class="btn btn-danger">Подтвердить удаление</button>
+                        <a asp-controller="Posts" asp-action="Details" asp-route-id="@Model.PostId" class="btn btn-secondary">Отмена</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
