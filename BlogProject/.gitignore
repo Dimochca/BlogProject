@@ -31,15 +31,6 @@ bld/
 # Rider
 .idea/
 
-# NLog logs
-logs/
-*.log
-
-# SQLite database files
-*.db
-*.db-shm
-*.db-wal
-
 # Environment files
 .env
 *.env

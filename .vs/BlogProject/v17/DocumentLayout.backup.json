@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Dima\\source\\repos\\BlogProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2179097D-5BA9-4805-89CC-C419048E64A7}|BlogProject\\BlogProject.csproj|c:\\users\\dima\\source\\repos\\blogproject\\blogproject\\services\\implementations\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2179097D-5BA9-4805-89CC-C419048E64A7}|BlogProject\\BlogProject.csproj|solutionrelative:blogproject\\services\\implementations\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2179097D-5BA9-4805-89CC-C419048E64A7}|BlogProject\\BlogProject.csproj|c:\\users\\dima\\source\\repos\\blogproject\\blogproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2179097D-5BA9-4805-89CC-C419048E64A7}|BlogProject\\BlogProject.csproj|solutionrelative:blogproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2179097D-5BA9-4805-89CC-C419048E64A7}|BlogProject\\BlogProject.csproj|c:\\users\\dima\\source\\repos\\blogproject\\blogproject\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2179097D-5BA9-4805-89CC-C419048E64A7}|BlogProject\\BlogProject.csproj|solutionrelative:blogproject\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2179097D-5BA9-4805-89CC-C419048E64A7}|BlogProject\\BlogProject.csproj|c:\\users\\dima\\source\\repos\\blogproject\\blogproject\\logs\\internal-nlog.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -81,14 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2179097D-5BA9-4805-89CC-C419048E64A7}|BlogProject\\BlogProject.csproj|c:\\users\\dima\\source\\repos\\blogproject\\blogproject\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2179097D-5BA9-4805-89CC-C419048E64A7}|BlogProject\\BlogProject.csproj|solutionrelative:blogproject\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2179097D-5BA9-4805-89CC-C419048E64A7}|BlogProject\\BlogProject.csproj|c:\\users\\dima\\source\\repos\\blogproject\\blogproject\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2179097D-5BA9-4805-89CC-C419048E64A7}|BlogProject\\BlogProject.csproj|solutionrelative:blogproject\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2179097D-5BA9-4805-89CC-C419048E64A7}|BlogProject\\BlogProject.csproj|c:\\users\\dima\\source\\repos\\blogproject\\blogproject\\services\\implementations\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2179097D-5BA9-4805-89CC-C419048E64A7}|BlogProject\\BlogProject.csproj|solutionrelative:blogproject\\services\\implementations\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2179097D-5BA9-4805-89CC-C419048E64A7}|BlogProject\\BlogProject.csproj|c:\\users\\dima\\source\\repos\\blogproject\\blogproject\\services\\interfaces\\ilogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -334,7 +334,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 73,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -342,20 +342,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "internal-nlog.txt",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\logs\\internal-nlog.txt",
               "RelativeDocumentMoniker": "BlogProject\\logs\\internal-nlog.txt",
               "ToolTip": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\logs\\internal-nlog.txt",
               "RelativeToolTip": "BlogProject\\logs\\internal-nlog.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2026-06-18T14:05:41.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Views\\Home\\Error.cshtml",
               "RelativeDocumentMoniker": "BlogProject\\Views\\Home\\Error.cshtml",
@@ -368,26 +368,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 2,
               "Title": "GlobalExceptionMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Middleware\\GlobalExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "BlogProject\\Middleware\\GlobalExceptionMiddleware.cs",
               "ToolTip": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Middleware\\GlobalExceptionMiddleware.cs",
               "RelativeToolTip": "BlogProject\\Middleware\\GlobalExceptionMiddleware.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBQAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-18T13:57:38.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 0,
               "Title": "LogService.cs",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Services\\Implementations\\LogService.cs",
               "RelativeDocumentMoniker": "BlogProject\\Services\\Implementations\\LogService.cs",
               "ToolTip": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Services\\Implementations\\LogService.cs",
               "RelativeToolTip": "BlogProject\\Services\\Implementations\\LogService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAkwBMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwCEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-18T13:57:01.415Z",
               "EditorCaption": ""
@@ -498,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "RolesController.cs",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Controllers\\RolesController.cs",
               "RelativeDocumentMoniker": "BlogProject\\Controllers\\RolesController.cs",
@@ -637,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "BlogProject\\Controllers\\UserController.cs",
@@ -662,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Views\\Profile\\Edit.cshtml",
               "RelativeDocumentMoniker": "BlogProject\\Views\\Profile\\Edit.cshtml",
@@ -688,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ProfileController.cs",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "BlogProject\\Controllers\\ProfileController.cs",
@@ -737,7 +737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "DemoteModerator.cshtml",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Views\\Admin\\DemoteModerator.cshtml",
               "RelativeDocumentMoniker": "BlogProject\\Views\\Admin\\DemoteModerator.cshtml",
@@ -750,7 +750,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "PromoteModerator.cshtml",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Views\\Admin\\PromoteModerator.cshtml",
               "RelativeDocumentMoniker": "BlogProject\\Views\\Admin\\PromoteModerator.cshtml",
@@ -775,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "BaseController.cs",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "BlogProject\\Controllers\\BaseController.cs",
@@ -788,7 +788,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "DemoteAdmin.cshtml",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Views\\Admin\\DemoteAdmin.cshtml",
               "RelativeDocumentMoniker": "BlogProject\\Views\\Admin\\DemoteAdmin.cshtml",
@@ -801,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "PromoteAdmin.cshtml",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Views\\Admin\\PromoteAdmin.cshtml",
               "RelativeDocumentMoniker": "BlogProject\\Views\\Admin\\PromoteAdmin.cshtml",
@@ -827,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "BlogProject\\Views\\Admin\\Index.cshtml",
@@ -840,7 +840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "BlogProject\\Controllers\\AdminController.cs",
@@ -853,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "BlogProject\\Controllers\\HomeController.cs",
@@ -950,7 +950,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CommentsController.cs",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Controllers\\CommentsController.cs",
               "RelativeDocumentMoniker": "BlogProject\\Controllers\\CommentsController.cs",
@@ -1000,7 +1000,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Views\\Posts\\Edit.cshtml",
               "RelativeDocumentMoniker": "BlogProject\\Views\\Posts\\Edit.cshtml",
@@ -1013,7 +1013,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Views\\Posts\\Create.cshtml",
               "RelativeDocumentMoniker": "BlogProject\\Views\\Posts\\Create.cshtml",
@@ -1039,7 +1039,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "PostsController.cs",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Controllers\\PostsController.cs",
               "RelativeDocumentMoniker": "BlogProject\\Controllers\\PostsController.cs",
@@ -1089,7 +1089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "BlogProject\\Controllers\\AccountController.cs",
@@ -1247,13 +1247,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Program.cs",
               "RelativeDocumentMoniker": "BlogProject\\Program.cs",
               "ToolTip": "C:\\Users\\Dima\\source\\repos\\BlogProject\\BlogProject\\Program.cs",
               "RelativeToolTip": "BlogProject\\Program.cs",
-              "ViewState": "AgIAAOYAAAAAAAAAAAAYwPEAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAnwEwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-17T11:08:47.775Z",
               "EditorCaption": ""

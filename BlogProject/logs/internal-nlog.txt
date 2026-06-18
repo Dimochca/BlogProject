@@ -1,0 +1,47 @@
+2026-06-18 21:06:44.3262 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create LayoutRenderer with unknown type-alias: 'aspnet-user-identity' - Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+2026-06-18 21:06:44.3677 Info Registered target NLog.Targets.FileTarget(Name=fileUserActions)
+2026-06-18 21:06:44.3677 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create LayoutRenderer with unknown type-alias: 'aspnet-user-identity' - Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+2026-06-18 21:06:44.3677 Info Registered target NLog.Targets.FileTarget(Name=fileErrors)
+2026-06-18 21:06:44.3677 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2026-06-18 21:06:44.3677 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.3.5285. Product version: 6.1.3+7f18a90739535f5ddc71c48e0fa28c59e5ee8969. GlobalAssemblyCache: False
+2026-06-18 21:06:44.4173 Info Configuration initialized: TargetNames=fileUserActions, console, fileErrors, ConfigItems=39, AutoReload=true, FilePath=C:\Users\Dima\source\repos\BlogProject\BlogProject\bin\Debug\net8.0\nlog.config
+2026-06-18 21:07:33.4474 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create LayoutRenderer with unknown type-alias: 'aspnet-user-identity' - Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+2026-06-18 21:07:33.4916 Info Registered target NLog.Targets.FileTarget(Name=fileUserActions)
+2026-06-18 21:07:33.4916 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create LayoutRenderer with unknown type-alias: 'aspnet-user-identity' - Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+2026-06-18 21:07:33.4916 Info Registered target NLog.Targets.FileTarget(Name=fileErrors)
+2026-06-18 21:07:33.4916 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2026-06-18 21:07:33.4916 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.3.5285. Product version: 6.1.3+7f18a90739535f5ddc71c48e0fa28c59e5ee8969. GlobalAssemblyCache: False
+2026-06-18 21:07:33.5408 Info Configuration initialized: TargetNames=fileUserActions, console, fileErrors, ConfigItems=39, AutoReload=true, FilePath=C:\Users\Dima\source\repos\BlogProject\BlogProject\bin\Debug\net8.0\nlog.config
+2026-06-18 21:09:05.1164 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create LayoutRenderer with unknown type-alias: 'aspnet-user-identity' - Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+2026-06-18 21:09:05.1885 Info Registered target NLog.Targets.FileTarget(Name=fileUserActions)
+2026-06-18 21:09:05.1885 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create LayoutRenderer with unknown type-alias: 'aspnet-user-identity' - Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+2026-06-18 21:09:05.1885 Info Registered target NLog.Targets.FileTarget(Name=fileErrors)
+2026-06-18 21:09:05.1914 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2026-06-18 21:09:05.1914 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.3.5285. Product version: 6.1.3+7f18a90739535f5ddc71c48e0fa28c59e5ee8969. GlobalAssemblyCache: False
+2026-06-18 21:09:05.2377 Info Configuration initialized: TargetNames=fileUserActions, console, fileErrors, ConfigItems=39, AutoReload=true, FilePath=C:\Users\Dima\source\repos\BlogProject\BlogProject\bin\Debug\net8.0\nlog.config
+2026-06-18 21:10:50.4584 Info LogFactory shutting down ...
+2026-06-18 21:10:50.4584 Info Closing old configuration.
+2026-06-18 21:10:50.4584 Info LogFactory shutdown completed.
+2026-06-18 21:33:13.8752 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create LayoutRenderer with unknown type-alias: 'aspnet-user-identity' - Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+2026-06-18 21:33:13.9138 Info Registered target NLog.Targets.FileTarget(Name=fileUserActions)
+2026-06-18 21:33:13.9138 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create LayoutRenderer with unknown type-alias: 'aspnet-user-identity' - Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+2026-06-18 21:33:13.9138 Info Registered target NLog.Targets.FileTarget(Name=fileErrors)
+2026-06-18 21:33:13.9138 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2026-06-18 21:33:13.9138 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.3.5285. Product version: 6.1.3+7f18a90739535f5ddc71c48e0fa28c59e5ee8969. GlobalAssemblyCache: False
+2026-06-18 21:33:13.9616 Info Configuration initialized: TargetNames=fileUserActions, console, fileErrors, ConfigItems=39, AutoReload=true, FilePath=C:\Users\Dima\source\repos\BlogProject\BlogProject\bin\Debug\net8.0\nlog.config
